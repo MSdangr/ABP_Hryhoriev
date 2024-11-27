@@ -1,33 +1,18 @@
 //task 1
 #include <iostream>
 using namespace std;
-int nthEven(int n) {
-  // your code here
-  cin >> n;
+cin >> n;
   if(n==1){
     n = 0;
   }
   if(n==2){
     n = n;
     }
-  if(n==3){
-    n = n+1;
-  }
-  if(n==6){
-    n = n+4;
-  }
-  if(n==101){
-    n = n+99;
-    }
-  if(n==201){
-    n = n*2-2;
-  }
-  if(n==1001){
+  if(n>=3){
     n = n*2-2;
   }
   return n;
   }
- //task 2
 
 bool canSnailReachEnd(double length, double speed, double lengthIncreases)
 {
